@@ -25,7 +25,7 @@ class MicRecord(Node):
         self.record_proc = None
 
         # Output directory (계정명 맞게 수정)
-        self.output_dir = '/home/ubuntu/recordings'
+        self.output_dir = '/home/music/recording'
         os.makedirs(self.output_dir, exist_ok=True)
 
         self.get_logger().info('MicRecord node started.')
